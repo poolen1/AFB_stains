@@ -1,0 +1,312 @@
+<?xml version="1.0" ?>
+<ome:OME xmlns:ome="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+	<ome:Instrument ID="Instrument:0">
+		<ome:Detector Gain="1.0" ID="Detector:0:0" Manufacturer="Olympus Soft Imaging Solutions" Model="VC50" Offset="0.0" SerialNumber="7929856" Type="CCD"/>
+		<ome:Detector Gain="1.0" ID="Detector:0:1" Manufacturer="Olympus Soft Imaging Solutions" Model="VC50" Offset="0.0" SerialNumber="7929856" Type="CCD"/>
+		<ome:Detector Gain="1.0" ID="Detector:0:2" Manufacturer="Olympus Soft Imaging Solutions" Model="VC50" Offset="0.0" SerialNumber="7929856" Type="CCD"/>
+		<ome:Detector Gain="1.0" ID="Detector:0:3" Manufacturer="Olympus Soft Imaging Solutions" Model="VC50" Offset="0.0" SerialNumber="7929856" Type="CCD"/>
+		<ome:Objective ID="Objective:0:0" LensNA="0.08" Model="PLAPON" NominalMagnification="2.0" WorkingDistance="6200.000000000001" WorkingDistanceUnit="µm"/>
+		<ome:Objective ID="Objective:0:1" LensNA="0.08" Model="PLAPON" NominalMagnification="2.0" WorkingDistance="6200.000000000001" WorkingDistanceUnit="µm"/>
+		<ome:Objective ID="Objective:0:2" LensNA="0.9" Model="UPLSAPO" NominalMagnification="40.0" WorkingDistance="180.0000000000001" WorkingDistanceUnit="µm"/>
+		<ome:Objective ID="Objective:0:3" LensNA="0.9" Model="UPLSAPO" NominalMagnification="40.0" WorkingDistance="180.0000000000001" WorkingDistanceUnit="µm"/>
+	</ome:Instrument>
+	<ome:Image ID="Image:0" Name="macro image">
+		<ome:InstrumentRef ID="Instrument:0"/>
+		<ome:Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:0" Interleaved="false" SignificantBits="8" SizeC="3" SizeT="1" SizeX="182" SizeY="512" SizeZ="1" Type="uint8">
+			<ome:Channel ID="Channel:0:0" SamplesPerPixel="3">
+				<ome:LightPath/>
+			</ome:Channel>
+			<ome:MetadataOnly/>
+			<ome:Plane TheC="0" TheT="0" TheZ="0"/>
+		</ome:Pixels>
+	</ome:Image>
+	<ome:Image ID="Image:1" Name="macro image">
+		<ome:InstrumentRef ID="Instrument:0"/>
+		<ome:Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:1" Interleaved="false" SignificantBits="8" SizeC="3" SizeT="1" SizeX="441" SizeY="415" SizeZ="1" Type="uint8">
+			<ome:Channel ID="Channel:1:0" SamplesPerPixel="3">
+				<ome:LightPath/>
+			</ome:Channel>
+			<ome:MetadataOnly/>
+			<ome:Plane TheC="0" TheT="0" TheZ="0"/>
+		</ome:Pixels>
+	</ome:Image>
+	<ome:Image ID="Image:2" Name="label">
+		<ome:AcquisitionDate>2021-01-08T02:17:02</ome:AcquisitionDate>
+		<ome:InstrumentRef ID="Instrument:0"/>
+		<ome:ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0003"/>
+		<ome:Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:2" Interleaved="false" PhysicalSizeX="3.479164698505201" PhysicalSizeXUnit="µm" PhysicalSizeY="3.4792568789887244" PhysicalSizeYUnit="µm" SignificantBits="8" SizeC="1" SizeT="1" SizeX="709" SizeY="1362" SizeZ="1" Type="uint8">
+			<ome:Channel ID="Channel:2:0" SamplesPerPixel="1">
+				<ome:DetectorSettings Binning="1x1" Gain="2.053068375480921" ID="Detector:0:0"/>
+				<ome:LightPath/>
+			</ome:Channel>
+			<ome:MetadataOnly/>
+			<ome:Plane ExposureTime="0.66283" ExposureTimeUnit="s" PositionX="-31513.640560203472" PositionXUnit="µm" PositionY="-76811.05609570039" PositionYUnit="µm" TheC="0" TheT="0" TheZ="0"/>
+		</ome:Pixels>
+	</ome:Image>
+	<ome:StructuredAnnotations>
+		<ome:XMLAnnotation ID="Annotation:0" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Scanning Time (seconds)</ome:Key>
+					<ome:Value>[5620.655859206485]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:1" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Product Build Number</ome:Key>
+					<ome:Value>[11043, 11043]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:2" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Product Version</ome:Key>
+					<ome:Value>[2.7, 2.7]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:3" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document creator sub version</ome:Key>
+					<ome:Value>[0, 0]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:4" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Transparency value</ome:Key>
+					<ome:Value>[0.6, 0.6, 1.0, 0.0]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:5" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Magnification</ome:Key>
+					<ome:Value>[40.0, 2.0]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:6" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Plane unit</ome:Key>
+					<ome:Value>[10^-6m^1]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:7" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Physical pixel size</ome:Key>
+					<ome:Value>[(0.17253787500440632, 0.17253947634692524)]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:8" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Layer selection index</ome:Key>
+					<ome:Value>[2]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:9" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document Company</ome:Key>
+					<ome:Value>[Hewlett-Packard Company, Hewlett-Packard Company]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:10" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Displayed LUT ID</ome:Key>
+					<ome:Value>[2]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:11" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Tray No.</ome:Key>
+					<ome:Value>[1]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:12" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Display visible</ome:Key>
+					<ome:Value>[0, 0, 1, 1, 1, 1, 1, 1, 0]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:13" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Original magnification</ome:Key>
+					<ome:Value>[40x, Label]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:14" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Transparency ID</ome:Key>
+					<ome:Value>[-1, -1, -1, -1, -1, -1]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:15" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Product Name</ome:Key>
+					<ome:Value>[VS-ASW, VS-ASW]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:16" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document Name</ome:Key>
+					<ome:Value>[Image_02.vsi, Image_02.vsi]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:17" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Snapshot Count</ome:Key>
+					<ome:Value>[10182]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:18" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document Creation Time</ome:Key>
+					<ome:Value>[2021-01-08T02:17:02, 2021-01-08T02:17:02]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:19" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document Author</ome:Key>
+					<ome:Value>[VS120, VS120]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:20" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Display processor type</ome:Key>
+					<ome:Value>[1, 1, -1, 1, -1, -1]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:21" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Layer selection</ome:Key>
+					<ome:Value>[1560848872]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:22" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Origin</ome:Key>
+					<ome:Value>[(-31513.640560203472, -76811.05609570039)]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:23" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Slide No.</ome:Key>
+					<ome:Value>[2]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:24" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document creator minor version</ome:Key>
+					<ome:Value>[8, 8]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:25" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document creator package</ome:Key>
+					<ome:Value>[6110, 6110]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:26" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Hidden layer</ome:Key>
+					<ome:Value>[1, 1, 1, 1, 1]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:27" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Displayed stack ID</ome:Key>
+					<ome:Value>[10004, 10007, 10005, 10002, 10003, 10006, 10000, 1, 10001]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:28" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document creator name</ome:Key>
+					<ome:Value>[XV, XV]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:29" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Canvas background color 2</ome:Key>
+					<ome:Value>[9342897]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:30" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Canvas background color 1</ome:Key>
+					<ome:Value>[9342897]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:31" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Image plane rectangle unit (Y dimension)</ome:Key>
+					<ome:Value>[10^-6m^1]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+		<ome:XMLAnnotation ID="Annotation:32" Namespace="openmicroscopy.org/OriginalMetadata">
+			<ome:Value>
+				<ome:OriginalMetadata>
+					<ome:Key>Document creator major version</ome:Key>
+					<ome:Value>[3, 3]</ome:Value>
+				</ome:OriginalMetadata>
+			</ome:Value>
+		</ome:XMLAnnotation>
+	</ome:StructuredAnnotations>
+</ome:OME>
